@@ -1,0 +1,30 @@
+.single-post {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  color: #f0b32a;
+}
+
+.single-post__metadata {
+  font-size: 1rem;
+  color: #464646;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid black;
+}
+
+.single-post__image {
+  margin: 0 auto;
+  height: 24rem;
+  width: 24rem;
+}
+
+.single-post__content {
+  text-align: left;
+  color: black;
+}
+
+@media (min-width: 768px) {
+  .single-post {
+    width: 40rem;
+  }
+}

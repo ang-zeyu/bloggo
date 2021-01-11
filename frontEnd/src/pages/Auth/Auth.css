@@ -1,0 +1,18 @@
+.auth-form {
+  width: 90%;
+  margin: auto;
+  padding: 1rem;
+  border: 1px solid #f0b32a;
+  border-radius: 5px;
+}
+
+.auth-form__title {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .auth-form {
+    width: 40rem;
+  }
+}
+  
